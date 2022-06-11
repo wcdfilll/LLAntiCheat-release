@@ -1,5 +1,7 @@
 # LLAntiCheat-release
 ## Description
+
+**English | [简体中文](README_zh-cn)**  
 Free AntiCheat plugin for LiteLoaderBDS 2
 Continuously updating
 
