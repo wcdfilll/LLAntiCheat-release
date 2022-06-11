@@ -22,7 +22,7 @@ LiteLoaderBDS 2 的免费反作弊插件
 - ~~修复切石机修改物品~~（bds已修复）
 - 添加铁砧花费校验（反假经验）
 - 反虚假名字
-- ~~修复荆棘复制物品和崩服bug~~（bds已修复）
+- ~~修复荆棘复制物品和崩服bug~~（BDS已修复）
 - 修复熔炉刷物
 - 修复漏斗矿车刷物
 - 新熔炉刷经验
@@ -36,14 +36,14 @@ Bedrock Dedicated Server 1.19.1.01
 
 ## 附加
 
-> 请不要将本插件加入整合包并发布，本插件拒绝整合，更不要将LLAC反馈群放到整合包介绍帖子里，谢谢
-> 未经授权严禁转载
+> 请不要将本插件加入整合包并发布，本插件拒绝整合，更不要将LLAC反馈群放到整合包介绍帖子里，谢谢  
+> 未经授权严禁转载  
 遇到问题，请优先查看配置文件，所有功能配置文件均可开关（部分对正常游戏无影响的除外）
-为了确保效果
-请保证LL2.0内置的反刷物功能正常开启
-如有需要可以配合llhelper隐藏种子
-BDS内置了移动检测和方块操作校验功能，如有需要请在`server.properties`中将
-`correct-player-movement`和`server-authoritative-block-breaking`改为`true`
+为了确保效果  
+请保证LL2.0内置的反刷物功能正常开启  
+如有需要可以配合[LLHelper](https://github.com/LiteLDev/LiteLoaderPlugins)隐藏种子
+BDS内置了移动检测和方块操作校验功能，如有需要请在`server.properties`中将  
+`correct-player-movement`和`server-authoritative-block-breaking`改为`true`  
 并保证`server-authoritative-movement`的类型为`server-auth`或者`server-auth-with-rewind`
 
 **为保护私有软件，本插件使用了其他技术保护我们发行的二进制文件，如遇杀毒软件误报，请加入（静态扫描）白名单，为保证您的安全建议不要关闭杀毒软件或禁用防火墙**
