@@ -1,7 +1,7 @@
 # LLAntiCheat-release
 ## Description
 
-**[English](README.md) | 简体中文**  
+[English](README.md) | 简体中文   
 LiteLoaderBDS 2 的免费反作弊插件  
 由社区驱动，并处于持续更新中  
 不会加入已有开源解决方案的功能，除非集成会带来更好的体验  
