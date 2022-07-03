@@ -66,8 +66,8 @@ Translation not 100% accurate
         //开关
         //Switch
         "AntiXrayObfs": true,
-        //强制透明的方块
-        //Force transparent blocks
+        //强制透明的方块(ID)
+        //Force transparent blocks(ID)
         "ForceTransparentBlocks": []
     },
     //附魔相关内容
