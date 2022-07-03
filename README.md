@@ -59,14 +59,23 @@ Version PreRelease 22 fix 11
 Translation not 100% accurate
 
 ```jsonc
-
 {
+    //反矿物透视
+    //Anti x-ray
+    "AntiXray": {
+        //开关
+        //Switch
+        "AntiXrayObfs": true,
+        //强制透明的方块
+        //Force transparent blocks
+        "ForceTransparentBlocks": []
+    },
     //附魔相关内容
     //Enchant related information
     "Enchant": {
         //最大等级，超过该等级的附魔将被清除
         //Max Level for Enchantments, Enchantments that exceed this level will be removed
-        "MaxLevel": 10
+        "MaxLevel": 5
     },
     //原版漏洞相关修复
     //Fixes for bugs that existed in the original BDS
@@ -88,10 +97,7 @@ Translation not 100% accurate
         "IllegalStack": true,
         //修复分解台复制物品
         //fix CopyItem Bug material reducer
-        "ReducerReplicate": true,
-        //修复递归死亡造成的异常掉落(荆棘)
-        //Fix abnormal drops caused by recursive death (with thorns Armor)
-        "ThornsRecursion": true
+        "ReducerReplicate": true
     },
     //踢出消息
     //Message When Player has been kicked from server
@@ -104,7 +110,7 @@ Translation not 100% accurate
         "IllegalEnchant": "[AntiCheat] You have been detected for using <Cheat:IllegalEnchant>",
         //无效的玩家名，即NameTag和XBox玩家名不一致
         //Invalid Player Name(NameTag!=XBoxPlayerName)
-        "InvalidName": "[AntiChest] You have been detected for using <Cheat:InvalidName>",
+        "InvalidName": "[AntiCheat] You have been detected for using <Cheat:InvalidName>",
         //杀戮 短时间内杀人太多
         //Killing too many people in a short period of time
         "KillAura": "[AntiCheat] You have been detected for using <Cheat:KillAura>",
@@ -130,6 +136,40 @@ Translation not 100% accurate
         //Illegal Experience or Level Request
         "XpHack": true
     },
+    //杀戮光环
+    //KillAura
+    "KillAura": {
+        //攻击间隔时间(毫秒)
+        //Attack interval time(ms)
+        "AttackIntervalMs": 75,
+        //忽略的实体
+        //Actors ininored
+        "CPSIgnoreActors": [
+            "minecraft:boat",
+            "minecraft:minecart"
+        ],
+        //开关
+        //Switch
+        "CheckKillAura": true,
+        //开启假人检测
+        //Enable fake player for detection
+        "EnableFakePlayer": false,
+        //假人移动角度
+        //Fake player's move angle
+        "FakePlayerMoveAngle": 18,
+        //假人的名称
+        //Fake player's name
+        "FakePlayerName": "LLAC",
+        //假人移动次数
+        //Fake player's move count
+        "FakePlayerUpdateCount": 60,
+        //假人移动间隔时间
+        //Fake player's move interval
+        "FakePlayerUpdateInterval": 2,
+        //每秒杀死的实体数，超过此数量会判定玩家作弊
+        //The number of entities killed in seconds, more than this number will determine the player cheating
+        "KillPerTenSecond": 8
+    },
     //功能开关
     "Switch": {
         //刷经验
@@ -145,7 +185,7 @@ Translation not 100% accurate
         //Command executed when the number of cheats reaches CheatCountBan
         "BanCommand": "ban {player}",
         "CheatCountBan": 8,
-        "CheatCountKick": 8,
+        "CheatCountKick": 4,
         //校验铁砧经验需求
         //Check anvil experience requirements
         "CheckAnvilCost": true,
