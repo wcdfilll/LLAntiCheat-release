@@ -13,26 +13,22 @@ LiteLoaderBDS 2 的免费反作弊插件
 - 高性能矿物混淆
 - 反刷经验球与经验
 - 修复漏斗刷物品BUG
-- ~~防止非法修改命令方块(矿车)和结构方块~~（BDS已修复）
-- 防杀戮光环（有点小问题，默认禁用）
+- ~~防止非法修改命令方块(矿车)和结构方块~~（Mojang已修复）
+- 防杀戮光环（生成假人以进行检测有点小问题，默认禁用）
 - 防非法附魔
-- 反非法give（LL内置）
-- 反调试包修改数据
+- 防非法give（LL内置）
+- 防调试包修改数据
 - 修复推箱子崩服
-- ~~修复切石机修改物品~~（BDS已修复）
-- 添加铁砧花费校验（反假经验）
-- 反虚假名字
+- ~~修复切石机修改物品~~（Mojang已修复）
+- ~~添加铁砧花费校验（反假经验）~~（Mojang已修复）
+- 防虚假名字
 - ~~修复荆棘复制物品和崩服bug~~（BDS已修复）
 - 修复熔炉刷物
 - 修复漏斗矿车刷物
 - 新熔炉刷经验
-- 反连点器
+- 防连点器
 - 防飞行/传送（BDS内置）
 - 防止范围破坏（BDS内置）
-
-## 支持的版本
-
-Bedrock Dedicated Server 1.19.10.03
 
 ## 附加
 
@@ -101,10 +97,7 @@ Version PreRelease 27 fix 5
         "HopperReplicate": true,
         //修复异常堆叠
         //fix illegal itemStack Stacking which may be used for Copy Items
-        "IllegalStack": true,
-        //修复分解台复制物品
-        //fix CopyItem Bug material reducer
-        "ReducerReplicate": true
+        "IllegalStack": true
     },
     //杀戮光环
     "KillAura": {
@@ -146,27 +139,24 @@ Version PreRelease 27 fix 5
         //反矿透
         //Prevent Player from Using Xray Mods to fine Ores
         "AntiXray": true,
-        //校验铁砧经验需求
-        //Check anvil experience requirements
-        "CheckAnvilCost": true,
         //检查附魔
         //Check Item's Enchantment
         "CheckEnchant": true,
-        //检查切石机（防止客户端修改切石机输出）
-        //Check StoneCutter (prevent client from modifying StoneCutter output)
-        "CheckStoneCutter": true,
         //禁用命令方块矿车
         //Disable Minecart with CommandBlock
         "DisableCommandBlockMinecart": true,
         //禁用NPC
         //Disable NPC
         "DisableNPC": true,
-        //禁止在打开背包时移动
-        //Prohibit movement while opening backpack
-        "InventoryMove": true,
-        //阻止游戏期间更皮肤
-        //Prevent Player Change Skin During the Game
-        "PreventChangeSkin": false
+        //阻止非法昵称
+        //Prevent invalid name
+        "InvalidName": true,
+        //阻止玩家在服务器中更换皮肤，用于阻止Horion的Crash功能
+        //Prevent player change skin in the server, for prevent horion's crash function
+        "PreventChangeSkin": true,
+        //阻止在睡觉时丢出物品
+        //Prevent player drop item while sleeping
+        "PreventSleepDrop": true
     }
 }
 ```

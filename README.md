@@ -17,7 +17,7 @@ Continuously updating
 - Fix debug packet modify game data
 - Fix crash caused by push chest
 - ~~Fix stonecutter change item data~~(Mojang have fixed it)
-- Add Anvil cost check(Anti fake exp)
+- ~~Add Anvil cost check(Anti fake exp)~~(Mojang have fixed it)
 - Anti FakeName
 - ~~Fix thorns's bug: copy item and crash server~~(Mojang have fixed it)
 - Fix furnace copy item
@@ -26,10 +26,6 @@ Continuously updating
 - Anti AutoClick
 - Anti fly and teleport(BDS built-in)
 - Anti range destruction(BDS built-in)
-
-## Supported Version
-
-Bedrock Dedicated Server 1.19.10.03
 
 ## Download
 
@@ -97,10 +93,7 @@ Translation not 100% accurate
         "HopperReplicate": true,
         //修复异常堆叠
         //fix illegal itemStack Stacking which may be used for Copy Items
-        "IllegalStack": true,
-        //修复分解台复制物品
-        //fix CopyItem Bug material reducer
-        "ReducerReplicate": true
+        "IllegalStack": true
     },
     //杀戮光环
     "KillAura": {
@@ -142,27 +135,24 @@ Translation not 100% accurate
         //反矿透
         //Prevent Player from Using Xray Mods to fine Ores
         "AntiXray": true,
-        //校验铁砧经验需求
-        //Check anvil experience requirements
-        "CheckAnvilCost": true,
         //检查附魔
         //Check Item's Enchantment
         "CheckEnchant": true,
-        //检查切石机（防止客户端修改切石机输出）
-        //Check StoneCutter (prevent client from modifying StoneCutter output)
-        "CheckStoneCutter": true,
         //禁用命令方块矿车
         //Disable Minecart with CommandBlock
         "DisableCommandBlockMinecart": true,
         //禁用NPC
         //Disable NPC
         "DisableNPC": true,
-        //禁止在打开背包时移动
-        //Prohibit movement while opening backpack
-        "InventoryMove": true,
-        //阻止游戏期间更皮肤
-        //Prevent Player Change Skin During the Game
-        "PreventChangeSkin": false
+        //阻止非法昵称
+        //Prevent invalid name
+        "InvalidName": true,
+        //阻止玩家在服务器中更换皮肤，用于阻止Horion的Crash功能
+        //Prevent player change skin in the server, for prevent horion's crash function
+        "PreventChangeSkin": true,
+        //阻止在睡觉时丢出物品
+        //Prevent player drop item while sleeping
+        "PreventSleepDrop": true
     }
 }
 ```

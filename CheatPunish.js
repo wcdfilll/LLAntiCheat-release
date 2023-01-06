@@ -57,7 +57,7 @@ function ExamplePunish(PunishLevel, PunishReason, Player, CheatCount) {
     }
 
     if (CheatCount > CheatCountKick || PunishLevel == 1/*PunishLevel::Kick*/) {
-        logger.info(`[Ban] Player \"${Player.realName}\" has been Kicked for cheating, reason:${punishReasonStr}`)
+        logger.info(`[Kick] Player \"${Player.realName}\" has been Kicked for cheating, reason:${punishReasonStr}`)
         var kickMessage = `[AntiCheat] You have been kicked for ${punishReasonStr}`
         Player.kick(kickMessage);
     }
