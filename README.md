@@ -51,7 +51,7 @@ QQ Groups ,telegram channel and discord server of LL
 
 ## Configuration File
 
-Version PreRelease 22 fix 11  
+Version: PreRelease 31 fix 1  
 Translation not 100% accurate
 
 ```jsonc

@@ -55,7 +55,7 @@ LL的QQ群/TG频道/discord服务器
 
 ## LiteLoader 反作弊配置文件解释
 
-Version PreRelease 27 fix 5  
+版本: PreRelease 31 fix 1  
 翻译并不是100%准确
 
 ```jsonc
