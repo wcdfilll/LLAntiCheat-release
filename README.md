@@ -1,8 +1,10 @@
 # LLAntiCheat-release
 ## Description
 
-English | [简体中文](README_zh-cn.md)  
+English | [简体中文](README_zh-cn.md)
+
 Free AntiCheat plugin for LiteLoaderBDS 2
+
 Continuously updating
 
 ## Features
@@ -27,9 +29,27 @@ Continuously updating
 - Anti fly and teleport(BDS built-in)
 - Anti range destruction(BDS built-in)
 
-## Download
+## Installation
 
-[Release](https://github.com/LiteLDev/LLAntiCheat-release/releases)
+### Install via Lip (beta)
+
+You should have Lip installed first. Refer to <https://github.com/LiteLDev/Lip>.
+
+Then run the command below under the root of BDS:
+
+```shell
+lip install github.com/Tooth-Hub/LLAntiCheat
+```
+
+For a specific version, run commands like:
+
+```shell
+lip install github.com/Tooth-Hub/LLAntiCheat@1.3.0
+```
+
+### Install manually
+
+[Download](https://github.com/LiteLDev/LLAntiCheat-release/releases)
 
 ## Addition
 

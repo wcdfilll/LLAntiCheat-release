@@ -1,10 +1,14 @@
 # LLAntiCheat-release
 ## Description
 
-[English](README.md) | 简体中文   
-LiteLoaderBDS 2 的免费反作弊插件  
-由社区驱动，并处于持续更新中  
-不会加入已有开源解决方案的功能，除非集成会带来更好的体验  
+[English](README.md) | 简体中文
+
+LiteLoaderBDS 2 的免费反作弊插件
+
+由社区驱动，并处于持续更新中
+
+不会加入已有开源解决方案的功能，除非集成会带来更好的体验
+
 反Toolbox请前往我们团队另外的开源插件（由于Toolbox修改版泛滥，该方案拦截率较低，技术上没有可能解决）
 
 ## 功能
@@ -29,6 +33,28 @@ LiteLoaderBDS 2 的免费反作弊插件
 - 防连点器
 - 防飞行/传送（BDS内置）
 - 防止范围破坏（BDS内置）
+
+## 安装
+
+### 通过Lip安装 (beta)
+
+请确保你已经安装了Lip，请参考：<https://github.com/LiteLDev/Lip>.
+
+运行下列命令安装最新版本：
+
+```shell
+lip install github.com/Tooth-Hub/LLAntiCheat
+```
+
+运行类似下列命令安装特定版本：
+
+```shell
+lip install github.com/Tooth-Hub/LLAntiCheat@1.3.0
+```
+
+### 手动安装
+
+[下载](https://github.com/LiteLDev/LLAntiCheat-release/releases)
 
 ## 附加
 
