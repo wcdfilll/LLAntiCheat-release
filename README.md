@@ -53,11 +53,10 @@ lip install github.com/Tooth-Hub/LLAntiCheat@1.3.0
 
 ## Addition
 
-In order to ensure the effect, please ensure that the LiteLoaderBDS has not been modified
-and change `correct-player-movement` and `server-authoritative-block-breaking` to `true`
-and make the type of `server-authoritative-movement` is `"server-auth"` or `"server-auth-with-rewind"
+In order to ensure the effect, please ensure that the LiteLoaderBDS has not been modified  
+LLAC will change `correct-player-movement` and `server-authoritative-block-breaking` to `true` by default  
+please make the type of `server-authoritative-movement` is `"server-auth"` or `"server-auth-with-rewind"
 in `server.properties`
-![Config](https://user-images.githubusercontent.com/53301243/146678264-e122065c-dbc6-4935-8d5e-ae89aefca4ad.png)
 
 **In order to protect proprietary software, this plugin uses other technologies to protect the binary files released by us. In case of false positives from anti-virus software, please join the (static scan) whitelist. To ensure your safety, it is recommended not to close anti-virus software or disable firewalls**
 
@@ -66,8 +65,9 @@ in `server.properties`
 WangYneos@outlook.com
 
 ## Feedback group
+
 LLAC dedicated QQ Group: 931871701  
-QQ Groups ,telegram channel and discord server of LL
+QQ Groups, telegram channel and discord server of LL
 
 ## Configuration File
 

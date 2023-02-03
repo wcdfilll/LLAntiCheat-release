@@ -63,10 +63,9 @@ lip install github.com/Tooth-Hub/LLAntiCheat@1.3.0
 遇到问题，请优先查看配置文件，所有功能配置文件均可开关（部分对正常游戏无影响的除外）
 为了确保效果  
 请保证LL2.0内置的反刷物功能正常开启  
-如有需要可以配合[LLHelper](https://github.com/LiteLDev/LiteLoaderPlugins)隐藏种子
-BDS内置了移动检测和方块操作校验功能，如有需要请在`server.properties`中将  
-`correct-player-movement`和`server-authoritative-block-breaking`改为`true`  
-并保证`server-authoritative-movement`的类型为`server-auth`或者`server-auth-with-rewind`
+如有需要可以配合[LLEssentials](https://github.com/LiteLDev/LLEssentials)隐藏种子
+LLAC会将`server.properties`中的`correct-player-movement`和`server-authoritative-block-breaking`自动改为`true`  
+但你需要保证`server-authoritative-movement`的类型为`server-auth`或者`server-auth-with-rewind`
 
 **为保护私有软件，防止抄袭，本插件使用了其他技术保护我们发行的二进制文件，如遇杀毒软件误报，请加入（静态扫描）白名单，为保证您的安全建议不要关闭杀毒软件或禁用防火墙**
 
