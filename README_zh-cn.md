@@ -1,15 +1,12 @@
 # LLAntiCheat-release
 ## Description
 
-[English](README.md) | 简体中文
-
-LiteLoaderBDS 2 的免费反作弊插件
-
-由社区驱动，并处于持续更新中
-
-不会加入已有开源解决方案的功能，除非集成会带来更好的体验
-
-反Toolbox请前往我们团队另外的开源插件（由于Toolbox修改版泛滥，该方案拦截率较低，技术上没有可能解决）
+[English](README.md) | 简体中文  
+LiteLoaderBDS的免费反作弊插件  
+由社区驱动，并处于持续更新中  
+不会加入已有开源解决方案的功能，除非集成会带来更好的体验  
+如果需要防Toolbox进服请安装[AntiToolbox](https://github.com/ShrBox/AntiToolbox)  
+由于Toolbox修改版泛滥，该方案拦截率较低，技术上没有可能解决
 
 ## 功能
 
@@ -58,12 +55,12 @@ lip install github.com/Tooth-Hub/LLAntiCheat@1.3.0
 
 ## 附加
 
-> 请不要将本插件加入整合包并发布，本插件拒绝整合，更不要将LLAC反馈群放到整合包介绍帖子里，谢谢  
-> 未经授权严禁转载  
-遇到问题，请优先查看配置文件，所有功能配置文件均可开关（部分对正常游戏无影响的除外）
-为了确保效果  
-请保证LL2.0内置的反刷物功能正常开启  
-如有需要可以配合[LLEssentials](https://github.com/LiteLDev/LLEssentials)隐藏种子
+> 请不要将本插件加入整合包并发布，本插件拒绝整合，更不要将LLAC反馈群放到整合包介绍帖子里，谢谢
+> 未经授权严禁转载
+
+遇到问题，请优先查看配置文件，所有功能配置文件均可开关（部分对正常游戏无影响的除外）  
+为了确保效果，请保证LL2.0内置的反刷物功能正常开启  
+如有需要可以配合[LLEssentials](https://github.com/LiteLDev/LLEssentials)隐藏种子  
 LLAC会将`server.properties`中的`correct-player-movement`和`server-authoritative-block-breaking`自动改为`true`  
 但你需要保证`server-authoritative-movement`的类型为`server-auth`或者`server-auth-with-rewind`
 

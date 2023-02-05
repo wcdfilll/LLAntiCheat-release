@@ -1,11 +1,12 @@
 # LLAntiCheat-release
 ## Description
 
-English | [简体中文](README_zh-cn.md)
-
-Free AntiCheat plugin for LiteLoaderBDS 2
-
-Continuously updating
+English | [简体中文](README_zh-cn.md)  
+Free AntiCheat plugin for LiteLoaderBDS  
+Powered by community, continuously updating  
+Features from existing open source solutions will not be added unless the integration would lead to a better experience  
+If you want to block Toolbox players, you can install [AntiToolbox](https://github.com/ShrBox/AntiToolbox)  
+Due to the proliferation of modified versions of Toolbox, the interception rate of this solution is low, and it is technically impossible to solve it
 
 ## Features
 
@@ -54,9 +55,9 @@ lip install github.com/Tooth-Hub/LLAntiCheat@1.3.0
 ## Addition
 
 In order to ensure the effect, please ensure that the LiteLoaderBDS has not been modified  
+If necessary, you can cooperate with [LLEssentials](https://github.com/LiteLDev/LLEssentials) to hide the seed  
 LLAC will change `correct-player-movement` and `server-authoritative-block-breaking` to `true` by default  
-please make the type of `server-authoritative-movement` is `"server-auth"` or `"server-auth-with-rewind"
-in `server.properties`
+Please make the type of `server-authoritative-movement` is `"server-auth"` or `"server-auth-with-rewind"` in `server.properties`
 
 **In order to protect proprietary software, this plugin uses other technologies to protect the binary files released by us. In case of false positives from anti-virus software, please join the (static scan) whitelist. To ensure your safety, it is recommended not to close anti-virus software or disable firewalls**
 
