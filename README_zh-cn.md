@@ -77,8 +77,7 @@ LL的QQ群/TG频道/discord服务器
 
 ## LiteLoader 反作弊配置文件解释
 
-版本: PreRelease 31 fix 1  
-翻译并不是100%准确
+版本: 1.5.2  
 
 ```jsonc
 {
@@ -155,29 +154,35 @@ LL的QQ群/TG频道/discord服务器
     },
     //功能开关
     "Switch": {
-        //刷经验
-        //Illegal Experience or Level Request
+        //  是否检测刷经验行为
+        //  Whether to detect illegal Experience or Level Request
         "AntiXpHack": true,
-        //反矿透
-        //Prevent Player from Using Xray Mods to fine Ores
+        //  反矿透
+        //  Prevent Player from Using Xray Mods to find Ores
         "AntiXray": true,
-        //检查附魔
-        //Check Item's Enchantment
+        // 是否检测玩家破坏方块
+        // Whether to detect player's breaking behavior
+        "BreakingDetection": true,
+        //  检查附魔
+        //  Check Item's Enchantment
         "CheckEnchant": true,
-        //禁用命令方块矿车
-        //Disable Minecart with CommandBlock
+        //  禁用命令方块矿车
+        //  Disable Minecart with CommandBlock
         "DisableCommandBlockMinecart": true,
-        //禁用NPC
-        //Disable NPC
+        //  禁用NPC
+        //  Disable NPC
         "DisableNPC": true,
-        //阻止非法昵称
-        //Prevent invalid name
+        //  阻止非法昵称
+        //  Prevent invalid name
         "InvalidName": true,
-        //阻止玩家在服务器中更换皮肤，用于阻止Horion的Crash功能
-        //Prevent player change skin in the server, for prevent horion's crash function
+        // 是否检测玩家移动
+        // Whether to detect player movement
+        "MovementDetection": true,
+        //  阻止玩家在服务器中更换皮肤，用于阻止Horion的Crash功能
+        //  Prevent player change skin in the server, for prevent horion's crash function
         "PreventChangeSkin": true,
-        //阻止在睡觉时丢出物品
-        //Prevent player drop item while sleeping
+        //  阻止在睡觉时丢出物品
+        //  Prevent player drop item while sleeping
         "PreventSleepDrop": true
     }
 }
